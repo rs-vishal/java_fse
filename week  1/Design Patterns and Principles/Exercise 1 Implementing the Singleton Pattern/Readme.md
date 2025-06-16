@@ -29,8 +29,10 @@ Exercise 1: Implementing the Singleton Pattern/
 ```bash
     java Main
 ```
+---
 
-### Sample Output:
+
+### ✅Sample Output:
 ```
 Logger initialized
 Log: This is the first log message.
