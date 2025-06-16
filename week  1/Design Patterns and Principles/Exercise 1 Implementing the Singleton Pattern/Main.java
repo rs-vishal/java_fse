@@ -6,6 +6,9 @@ public class Main {
 
         logger1.log("This is the first log message.");
         logger2.log("This is the second log message.");
+
+
+        // Check if both logger1 and logger2 are the same instance
         if (logger1 == logger2) {
             System.out.println("Both logger1 and logger2 are the same instance.");
         } else {
