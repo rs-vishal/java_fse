@@ -29,7 +29,7 @@ Exercise 1: Implementing the Singleton Pattern/
 ```bash
     java Main
 ```
----
+
 
 
 ## ✅Sample Output:
