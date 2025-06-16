@@ -32,7 +32,7 @@ Exercise 1: Implementing the Singleton Pattern/
 ---
 
 
-### ✅Sample Output:
+## ✅Sample Output:
 ```
 Logger initialized
 Log: This is the first log message.
