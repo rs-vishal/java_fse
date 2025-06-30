@@ -1,4 +1,4 @@
-package com.library.Exercise1ConfiguringaBasicSpringApplication;
+package com.library.Exercise1ConfiguringaBasicSpringApplication.BookRepository;
 
 public class BookRepository {
     public void  saveBook(String bookname){

@@ -1,4 +1,6 @@
-package com.library.Exercise1ConfiguringaBasicSpringApplication;
+package com.library.Exercise1ConfiguringaBasicSpringApplication.Bookservice;
+
+import com.library.Exercise1ConfiguringaBasicSpringApplication.BookRepository.BookRepository;
 
 public class Bookservice {
     private BookRepository bookRepository;
