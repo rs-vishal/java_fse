@@ -8,7 +8,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class Exercise1ConfiguringaBasicSpringApplication {
 
 	public static void main(String[] args) {
-		ApplicationContext context = new ClassPathXmlApplicationContext("config.xml");
+		ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 
 		Bookservice bookservice =  (Bookservice) context.getBean("bookservice");
 		BookRepository bookRepository = (BookRepository) context.getBean("bookRepository");
