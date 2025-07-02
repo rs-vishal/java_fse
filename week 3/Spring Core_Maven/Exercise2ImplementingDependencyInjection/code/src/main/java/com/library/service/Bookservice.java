@@ -1,5 +1,6 @@
-package com.library;
+package com.library.service;
 
+import com.library.repository.BookRepository;
 
 public class Bookservice {
     private BookRepository bookRepository;
