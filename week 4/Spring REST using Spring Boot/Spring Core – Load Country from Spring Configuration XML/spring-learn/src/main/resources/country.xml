@@ -6,7 +6,8 @@
          http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="country" class="com.cognizant.spring_learn.Country">
-        <property name="Code" value="IN"/>
-        <property name="Name" value="India"/>
+        <property name="code" value="IN"/>
+        <property name="name" value="India"/>
     </bean>
+
 </beans>

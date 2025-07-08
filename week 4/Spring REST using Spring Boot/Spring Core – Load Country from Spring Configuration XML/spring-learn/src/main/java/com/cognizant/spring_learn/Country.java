@@ -7,33 +7,35 @@ import org.slf4j.LoggerFactory;
 public class Country {
 
     private static final Logger LOG = LoggerFactory.getLogger(Country.class);
-    private String Name;
-    private String Code;
+    private String name;
+    private String code;
 
     public Country(){
         LOG.debug("Inside Country Constructor");
     }
 
     public String getName() {
-        return Name;
+        return name;
     }
 
     public String getCode() {
-        return Code;
+        return code;
     }
 
     public void setName(String name) {
-        Name = name;
+        name = name;
     }
 
     public void setCode(String code) {
-        Code = code;
+        code = code;
     }
 
+
+    @Override
     public String toString(){
         return "Country{" +
-                "code='" + Code + '\'' +
-                ", name='" + Name + '\'' +
+                "code='" + code + '\'' +
+                ", name='" + name + '\'' +
                 '}';
     }
 }
